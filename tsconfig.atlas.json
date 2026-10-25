@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2023", "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "ESNext", "moduleResolution": "Bundler", "jsx": "react-jsx",
+    "strict": true, "noEmit": true, "esModuleInterop": true,
+    "allowImportingTsExtensions": true, "skipLibCheck": true,
+    "types": ["node", "vite/client"]
+  },
+  "include": ["packages/atlas/**/*.ts", "packages/design-system/src/**/*.ts", "packages/design-system/src/**/*.tsx", "web/src/**/*.ts", "web/src/**/*.tsx", "vite.benchmark.config.ts", "vitest.atlas.config.ts", "drizzle.atlas.config.ts"]
+}

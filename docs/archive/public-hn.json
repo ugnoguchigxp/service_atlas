@@ -1,0 +1,13 @@
+{
+  "name": "Hacker News Search — 公開カタログの事前評価",
+  "targetUrl": "https://hn.algolia.com/",
+  "scope": "公開済みのUnbrowseカタログから検索機能のAPI仕様をどこまで記述できるか確認する。新規ブラウザ観測・認証付き機能・変更操作は含めない。",
+  "criteria": [
+    "対象SaaS自身のHTTPメソッドとパスを根拠付きで示せる",
+    "検索入力の名前と型、および未確認の制約を区別できる",
+    "対象SaaSの応答構造と具体例を根拠付きで示せる",
+    "エラー条件と認証条件の確認済み・未確認を区別できる",
+    "UnbrowseのツールAPIと対象SaaSのHTTP APIを区別できる"
+  ],
+  "dataPolicy": "public-only"
+}

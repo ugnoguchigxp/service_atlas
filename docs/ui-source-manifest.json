@@ -1,0 +1,133 @@
+{
+  "source_repository": "../eumenes",
+  "source_commit": "a004aaad750e82abaa4119e93c5d22720628804e",
+  "note": "Read working-tree sources; cn and Button imports converted to relative paths. OpenUI SDK wrappers copied unchanged. No product data, configuration or credentials copied.",
+  "files": [
+    {
+      "source": "packages/design-system/src/components/Button/index.ts",
+      "destination": "packages/design-system/src/components/Button/index.ts",
+      "source_sha256": "ac1df3e8dd894c7123ae439a7742caf12a1521f364e4e6d8b70baa4c141e980a",
+      "destination_sha256": "ac1df3e8dd894c7123ae439a7742caf12a1521f364e4e6d8b70baa4c141e980a"
+    },
+    {
+      "source": "packages/design-system/src/components/Button/Button.tsx",
+      "destination": "packages/design-system/src/components/Button/Button.tsx",
+      "source_sha256": "6b74510f490998905527c10616d3929311db75dae16806586f46643563c37c32",
+      "destination_sha256": "9d56c643d2ae3b7e09fb59d5bf1b7dbba7a72e3bafd291469ca86418a521d97b"
+    },
+    {
+      "source": "packages/design-system/src/components/Input/index.ts",
+      "destination": "packages/design-system/src/components/Input/index.ts",
+      "source_sha256": "51d2d0a65f2d423611e7a7caab1acb8c5ab473dd73a581a9f9ed5f77813d9933",
+      "destination_sha256": "51d2d0a65f2d423611e7a7caab1acb8c5ab473dd73a581a9f9ed5f77813d9933"
+    },
+    {
+      "source": "packages/design-system/src/components/Input/Input.tsx",
+      "destination": "packages/design-system/src/components/Input/Input.tsx",
+      "source_sha256": "27dc9a09b303f05b0082199e119439ed359027df913adb2cff7e5dd1703c96ce",
+      "destination_sha256": "3a8da0972390390481afc6f2ff43a1ded37e1dda21ae81f27ed7dda0ddfa87cb"
+    },
+    {
+      "source": "packages/design-system/src/components/Textarea/index.ts",
+      "destination": "packages/design-system/src/components/Textarea/index.ts",
+      "source_sha256": "ed07f64663d605b3031a1dd5b85266284d4f82ec244c3f7a5bbcabc2cb14c816",
+      "destination_sha256": "ed07f64663d605b3031a1dd5b85266284d4f82ec244c3f7a5bbcabc2cb14c816"
+    },
+    {
+      "source": "packages/design-system/src/components/Textarea/Textarea.tsx",
+      "destination": "packages/design-system/src/components/Textarea/Textarea.tsx",
+      "source_sha256": "f8929a0620b2ff25bec7bd35f5cad1d5c327e35496c3ca1e80cbc1f48dc5e76a",
+      "destination_sha256": "e0c092d190ff413b4f481129bc26c6eaa6a589500f6c25f2d34fc4f91a6ccd1e"
+    },
+    {
+      "source": "packages/design-system/src/components/Card/Card.tsx",
+      "destination": "packages/design-system/src/components/Card/Card.tsx",
+      "source_sha256": "416045791bd63f098c9f0b93a9cd1eae5173703e7d038045f79f3399760b1e5b",
+      "destination_sha256": "39b2a8528e9203dc44f840f785e038946fd2531e754601b310a64a231adc15ac"
+    },
+    {
+      "source": "packages/design-system/src/components/Card/index.ts",
+      "destination": "packages/design-system/src/components/Card/index.ts",
+      "source_sha256": "7dcbac6da067101e62ef9e857b77db24e7a4e273d51d11d633c65ebf899724ec",
+      "destination_sha256": "7dcbac6da067101e62ef9e857b77db24e7a4e273d51d11d633c65ebf899724ec"
+    },
+    {
+      "source": "packages/design-system/src/components/Badge/Badge.tsx",
+      "destination": "packages/design-system/src/components/Badge/Badge.tsx",
+      "source_sha256": "40045e2917c03264e8935018e3d2432687310c49519516c88aaf0b56dd5d071b",
+      "destination_sha256": "df63191fc8bc88e6456c9532ba0eb43d7cfdc0760f205419361fa727971565b0"
+    },
+    {
+      "source": "packages/design-system/src/components/Badge/index.ts",
+      "destination": "packages/design-system/src/components/Badge/index.ts",
+      "source_sha256": "93300dc8bb6a3fed61167086beee2bf7e57caf667aa6e7110e170664483eb8ed",
+      "destination_sha256": "93300dc8bb6a3fed61167086beee2bf7e57caf667aa6e7110e170664483eb8ed"
+    },
+    {
+      "source": "packages/design-system/src/components/Tabs/Tabs.tsx",
+      "destination": "packages/design-system/src/components/Tabs/Tabs.tsx",
+      "source_sha256": "b27873ae3f40becf9eaa904537d6c79820b57ac9f60e6c231d8d11096c662e9f",
+      "destination_sha256": "832c3188e8f5d0b0dba52603211e18ba73b8ac162e44706ed0e7578a0e442b95"
+    },
+    {
+      "source": "packages/design-system/src/components/Tabs/Tabs.css",
+      "destination": "packages/design-system/src/components/Tabs/Tabs.css",
+      "source_sha256": "f7a66166426760b33266cd58d1ea2a091b34479442ac448815e255224675d89c",
+      "destination_sha256": "f7a66166426760b33266cd58d1ea2a091b34479442ac448815e255224675d89c"
+    },
+    {
+      "source": "packages/design-system/src/components/Tabs/index.ts",
+      "destination": "packages/design-system/src/components/Tabs/index.ts",
+      "source_sha256": "6034a4dd05665f073ec90a28b6f8703ff3b8384f6a9f78ecac7dcbdf1f68ca28",
+      "destination_sha256": "6034a4dd05665f073ec90a28b6f8703ff3b8384f6a9f78ecac7dcbdf1f68ca28"
+    },
+    {
+      "source": "packages/design-system/LICENSE",
+      "destination": "packages/design-system/LICENSE",
+      "source_sha256": "a04a158843046a2a5617084b2dcafdeab3dc2aab7f9a034c1262de235b7a03f5",
+      "destination_sha256": "a04a158843046a2a5617084b2dcafdeab3dc2aab7f9a034c1262de235b7a03f5"
+    },
+    {
+      "source": "packages/design-system/src/utils/cn.ts",
+      "destination": "packages/design-system/src/utils/cn.ts",
+      "source_sha256": "d1597b80a2d08e5099f89a3c3535220d55da0c07f0ee14f4bfba1f2b767605a2",
+      "destination_sha256": "d1597b80a2d08e5099f89a3c3535220d55da0c07f0ee14f4bfba1f2b767605a2"
+    },
+    {
+      "source": "packages/design-system/src/styles/index.css",
+      "destination": "packages/design-system/src/styles/index.css",
+      "source_sha256": "6d7bb4c8c35264ae3a088aaad35b73f38d9a9c80f3b0dd24e8fdb8f862cf1611",
+      "destination_sha256": "6d7bb4c8c35264ae3a088aaad35b73f38d9a9c80f3b0dd24e8fdb8f862cf1611"
+    },
+    {
+      "source": "packages/design-system/src/styles/themes.css",
+      "destination": "packages/design-system/src/styles/themes.css",
+      "source_sha256": "7eb1effa4d6244beb69a43f1b4f557e765f084fe9af89592813f2cf2a7cdd68e",
+      "destination_sha256": "7eb1effa4d6244beb69a43f1b4f557e765f084fe9af89592813f2cf2a7cdd68e"
+    },
+    {
+      "source": "packages/design-system/src/styles/variables.css",
+      "destination": "packages/design-system/src/styles/variables.css",
+      "source_sha256": "ae5bebae76f1d85e41331c154d0cbd8137a040bde0d0bb5c87f6da9f2bb4ccd9",
+      "destination_sha256": "ae5bebae76f1d85e41331c154d0cbd8137a040bde0d0bb5c87f6da9f2bb4ccd9"
+    },
+    {
+      "source": "packages/artifact-ui/src/sdk.ts",
+      "destination": "web/src/openui/sdk.ts",
+      "source_sha256": "4fbafca4263f86eda39c5aed74c9a75c5fa3b505f92de98bb3c07dfba52f287e",
+      "destination_sha256": "4fbafca4263f86eda39c5aed74c9a75c5fa3b505f92de98bb3c07dfba52f287e"
+    },
+    {
+      "source": "packages/artifact-ui/src/sdk-devtools.ts",
+      "destination": "web/src/openui/sdk-devtools.ts",
+      "source_sha256": "0bbbe6c28355f5167086ee0ccfce53034390069acdfe6bb3a99df00770b87b10",
+      "destination_sha256": "0bbbe6c28355f5167086ee0ccfce53034390069acdfe6bb3a99df00770b87b10"
+    }
+  ],
+  "additional_reference": {
+    "repository": "../hono-standard",
+    "source": "vite.config.ts",
+    "destination": "vite.benchmark.config.ts",
+    "usage": "React/Tailwind/Hono same-origin composition; removed unrelated auth/dashboard settings"
+  }
+}

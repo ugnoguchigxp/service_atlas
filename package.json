@@ -1,0 +1,54 @@
+{
+  "name": "service-atlas",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/atlas",
+    "packages/design-system"
+  ],
+  "scripts": {
+    "build": "bun run build:benchmark",
+    "test": "bun run test:atlas",
+    "typecheck": "bun run typecheck:atlas",
+    "cli": "tsx packages/atlas/src/cli.ts",
+    "dev:benchmark": "vite --config vite.benchmark.config.ts",
+    "start:benchmark": "tsx packages/atlas/src/server.ts",
+    "bench": "tsx packages/atlas/src/cli.ts",
+    "build:benchmark": "vite build --config vite.benchmark.config.ts",
+    "typecheck:atlas": "tsc -p tsconfig.atlas.json --noEmit",
+    "test:atlas": "vitest run --config vitest.atlas.config.ts",
+    "db:generate": "drizzle-kit generate --config drizzle.atlas.config.ts",
+    "verify:atlas": "bun run typecheck:atlas && bun run test:atlas && bun run build:benchmark",
+    "dev": "bun run dev:benchmark",
+    "start": "bun run start:benchmark",
+    "verify": "bun run verify:atlas",
+    "browser:install": "bun run --cwd packages/atlas browser:install"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "@hono/vite-dev-server": "0.26.0",
+    "@tailwindcss/vite": "4.3.1",
+    "@vitejs/plugin-react": "6.0.2",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "@types/better-sqlite3": "^7.6.13",
+    "@playwright/test": "1.61.1",
+    "drizzle-kit": "0.31.10",
+    "tsx": "^4.20.6",
+    "vite": "8.0.16",
+    "vitest": "4.1.8"
+  },
+  "dependencies": {
+    "@atlas/benchmark": "workspace:*",
+    "@atlas/design-system": "workspace:*",
+    "@openuidev/react-lang": "0.3.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "lucide-react": "^0.556.0",
+    "zod": "4.4.3"
+  },
+  "trustedDependencies": [
+    "better-sqlite3"
+  ]
+}

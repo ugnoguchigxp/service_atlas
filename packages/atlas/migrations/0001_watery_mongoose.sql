@@ -1,0 +1,1 @@
+ALTER TABLE `benchmark_attempts` ADD `source_kind` text NOT NULL;
